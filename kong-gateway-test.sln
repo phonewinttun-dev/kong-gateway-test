@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37216.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kong-Gateway.ConsoleApp", "Kong-Gateway.ConsoleApp\Kong-Gateway.ConsoleApp.csproj", "{10247E8B-BDA5-4D50-AAEA-B650F647C450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kong-Gateway.WebApi", "Kong-Gateway.WebApi\Kong-Gateway.WebApi.csproj", "{58D755B4-76DA-4476-A4E6-B1885DF68BB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10247E8B-BDA5-4D50-AAEA-B650F647C450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10247E8B-BDA5-4D50-AAEA-B650F647C450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10247E8B-BDA5-4D50-AAEA-B650F647C450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10247E8B-BDA5-4D50-AAEA-B650F647C450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D755B4-76DA-4476-A4E6-B1885DF68BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D755B4-76DA-4476-A4E6-B1885DF68BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D755B4-76DA-4476-A4E6-B1885DF68BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D755B4-76DA-4476-A4E6-B1885DF68BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D63325B-CCC2-4B1E-9089-3258E3F9269D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+@Kong_Gateway.WebApi_HostAddress = http://localhost:5014
+@Kong_HTTP_HostAddress = http://localhost:8000
+@Kong_HTTPS_HostAddress = https://localhost:8443
+
+### Direct Web API (HTTP)
+GET {{Kong_Gateway.WebApi_HostAddress}}/api/book
+Accept: application/json
+
+###
+### Kong Proxy (HTTP)
+### Click "Send Request" 10+ times within a minute to test rate limiting!
+GET {{Kong_HTTP_HostAddress}}/api/book
+Accept: application/json
+
+###
+### Kong Proxy (HTTPS)
+### Note: Bypassing SSL warnings might be required in your IDE's HTTP Client settings
+GET {{Kong_HTTPS_HostAddress}}/api/book
+Accept: application/json

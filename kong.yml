@@ -1,0 +1,25 @@
+_format_version: "3.0"
+_transform: true
+
+services:
+  - name: book-api-service
+    url: https://host.docker.internal:7179
+    tls_verify: false
+    routes:
+      - name: book-api-route
+        paths:
+          - /api/book
+        strip_path: false
+        plugins:
+          - name: rate-limiting
+            config:
+              minute: 10
+              policy: local
+      - name: scalar-ui-route
+        paths:
+          - /scalar
+        strip_path: false
+      - name: swagger-schema-route
+        paths:
+          - /swagger
+        strip_path: false
