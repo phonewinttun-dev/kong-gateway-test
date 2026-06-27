@@ -2,6 +2,7 @@ using Kong_Gateway.WebApi.Data;
 using Kong_Gateway.ConsoleApp.Data;
 using Kong_Gateway.ConsoleApp.Service;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
